@@ -18,6 +18,14 @@ public class SimpleFormDemoPage {
 	private WebElement showMessageButton;
 	@FindBy(id="display")
 	private WebElement messageSpan;
+	@FindBy(id="sum1")
+	private WebElement sum1TextBox;
+	@FindBy(id="sum2")
+	private WebElement sum2TextBox;
+	@FindBy(xpath="//button[text()='Get Total']")
+	private WebElement getTotalButton;
+	@FindBy(id="displayvalue")
+	private WebElement spanTotal;
 	public void showMessage()
 	{
 		messageBox.sendKeys("sandip");
@@ -31,6 +39,14 @@ public class SimpleFormDemoPage {
 		System.out.println("The Messsage is "+message);
 		return message;
 			}
-	
+	public String getTotal(int sum1,int sum2)
+	{
+		
+		sum1TextBox.sendKeys(sum1+"");
+		sum2TextBox.sendKeys(sum2+"");
+		getTotalButton.click();
+		String total=spanTotal.getText();
+		return total;
+	}
 
 }

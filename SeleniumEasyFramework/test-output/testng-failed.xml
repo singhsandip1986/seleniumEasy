@@ -11,9 +11,8 @@
           <include name="afterSuite"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="f"/>
           <include name="beforeClass"/>
-          <include name="f1"/>
+          <include name="totaltest"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- com.seleniumeasy.tests.NewTest -->

@@ -26,12 +26,48 @@ public class NewTest {
 	WebDriver driver;
 	HomePage homePage;
 	BasicPage basicPage;
+	/*
 	@Test
 	public void f1()
 	{
 		
 		   
-		 lib.ImlicitWait(10);
+		 
+		  
+		  SimpleFormDemoPage simpleFormDemoPage=new SimpleFormDemoPage(driver);
+		  simpleFormDemoPage.showMessage();
+		  String message=simpleFormDemoPage.verifyMessage();
+		  Assert.assertEquals(message,"sandip","Wrong message");
+	}
+	*/
+  @Test
+  public void f() {
+	  
+	  
+	  SimpleFormDemoPage simpleFormDemoPage=new SimpleFormDemoPage(driver);
+	  simpleFormDemoPage.showMessage();
+	  String message=simpleFormDemoPage.verifyMessage();
+	  Assert.assertEquals(message,"sandip","Wrong message");
+  }
+  
+  @Test
+  public void totaltest()
+  {
+	  SimpleFormDemoPage simpleFormDemoPage=new SimpleFormDemoPage(driver);
+	  int text1=12,text2=15;
+	  String message=simpleFormDemoPage.getTotal(text1, text2);
+	  int total=text1+text2;
+	  Assert.assertEquals(message, total+"","Did Not Match");
+  }
+  @BeforeMethod
+  public void beforeMethod() {
+	  lib=new WebdriverCommonLib();
+	  driver=Driver.getDriver();
+	  driver.get(Constants.url);
+	  lib.maximise();
+	   homePage=new HomePage(driver);
+	   basicPage=new BasicPage(driver);
+	   lib.ImlicitWait(10);
 
 		  homePage.clickStartPracticingButton();
 		  lib.ImlicitWait(10);
@@ -44,41 +80,6 @@ public class NewTest {
 		  {
 		 	 e.printStackTrace();
 		  }
-		  
-		  SimpleFormDemoPage simpleFormDemoPage=new SimpleFormDemoPage(driver);
-		  simpleFormDemoPage.showMessage();
-		  String message=simpleFormDemoPage.verifyMessage();
-		  Assert.assertEquals(message,"sandip singh","Wrong message");
-	}
-  @Test
-  public void f() {
-	  lib.ImlicitWait(10);
-
-	  homePage.clickStartPracticingButton();
-	  lib.ImlicitWait(10);
-	  
-	  try
-	  {
-	 	 basicPage.clicksimpleFormDemoButton();
-	  }
-	  catch(Exception e)
-	  {
-	 	 e.printStackTrace();
-	  }
-	  
-	  SimpleFormDemoPage simpleFormDemoPage=new SimpleFormDemoPage(driver);
-	  simpleFormDemoPage.showMessage();
-	  String message=simpleFormDemoPage.verifyMessage();
-	  Assert.assertEquals(message,"sandip singh","Wrong message");
-  }
-  @BeforeMethod
-  public void beforeMethod() {
-	  lib=new WebdriverCommonLib();
-	  driver=Driver.getDriver();
-	  driver.get(Constants.url);
-	  lib.maximise();
-	   homePage=new HomePage(driver);
-	   basicPage=new BasicPage(driver);
   }
 
   @AfterMethod
