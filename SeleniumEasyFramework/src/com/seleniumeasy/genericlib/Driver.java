@@ -11,6 +11,7 @@ public static WebDriver getDriver()
 	if(Constants.browser.equals("firefox"))
 	{
 		driver=new FirefoxDriver();
+		System.setProperty("webdriver.gecko,driver", "C:\\Users\\supsan\\Downloads\\geckodriver-v0.14.0-win32\\geckodriver.exe");
 	}
 	else if(Constants.browser.equals("chrome"))
 	{

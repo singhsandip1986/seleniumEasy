@@ -2,56 +2,56 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43333" started-at="2017-03-20T15:55:05Z" finished-at="2017-03-20T15:55:48Z">
+  <suite name="Suite" duration-ms="21567" started-at="2017-03-20T16:41:08Z" finished-at="2017-03-20T16:41:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="43333" started-at="2017-03-20T15:55:05Z" finished-at="2017-03-20T15:55:48Z">
+    <test name="Test" duration-ms="21567" started-at="2017-03-20T16:41:08Z" finished-at="2017-03-20T16:41:29Z">
       <class name="com.seleniumeasy.tests.NewTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2017-03-20T21:25:05Z" finished-at="2017-03-20T21:25:05Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="beforeSuite" is-config="true" duration-ms="17" started-at="2017-03-20T22:11:07Z" finished-at="2017-03-20T22:11:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-03-20T21:25:05Z" finished-at="2017-03-20T21:25:05Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-03-20T22:11:08Z" finished-at="2017-03-20T22:11:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-03-20T21:25:05Z" finished-at="2017-03-20T21:25:05Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="beforeClass" is-config="true" duration-ms="3352" started-at="2017-03-20T22:11:08Z" finished-at="2017-03-20T22:11:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="beforeMethod" is-config="true" duration-ms="19586" started-at="2017-03-20T21:25:05Z" finished-at="2017-03-20T21:25:24Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="beforeMethod" is-config="true" duration-ms="14554" started-at="2017-03-20T22:11:11Z" finished-at="2017-03-20T22:11:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="f" duration-ms="521" started-at="2017-03-20T21:25:24Z" finished-at="2017-03-20T21:25:25Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="f" duration-ms="482" started-at="2017-03-20T22:11:25Z" finished-at="2017-03-20T22:11:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="afterMethod" is-config="true" duration-ms="1215" started-at="2017-03-20T21:25:25Z" finished-at="2017-03-20T21:25:26Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-03-20T22:11:26Z" finished-at="2017-03-20T22:11:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="beforeMethod" is-config="true" duration-ms="20353" started-at="2017-03-20T21:25:26Z" finished-at="2017-03-20T21:25:46Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="beforeMethod" is-config="true" duration-ms="1300" started-at="2017-03-20T22:11:26Z" finished-at="2017-03-20T22:11:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="totaltest()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="totaltest" duration-ms="731" started-at="2017-03-20T21:25:46Z" finished-at="2017-03-20T21:25:47Z">
+        <test-method status="PASS" signature="totaltest()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="totaltest" duration-ms="661" started-at="2017-03-20T22:11:27Z" finished-at="2017-03-20T22:11:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- totaltest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="afterMethod" is-config="true" duration-ms="907" started-at="2017-03-20T21:25:47Z" finished-at="2017-03-20T21:25:48Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-03-20T22:11:28Z" finished-at="2017-03-20T22:11:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-03-20T21:25:48Z" finished-at="2017-03-20T21:25:48Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="afterClass" is-config="true" duration-ms="1200" started-at="2017-03-20T22:11:28Z" finished-at="2017-03-20T22:11:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-03-20T21:25:48Z" finished-at="2017-03-20T21:25:48Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-03-20T22:11:29Z" finished-at="2017-03-20T22:11:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-03-20T21:25:48Z" finished-at="2017-03-20T21:25:48Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.seleniumeasy.tests.NewTest@1bd9247]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-03-20T22:11:29Z" finished-at="2017-03-20T22:11:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

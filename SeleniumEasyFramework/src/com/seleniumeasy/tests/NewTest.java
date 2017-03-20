@@ -62,7 +62,7 @@ public class NewTest {
   @BeforeMethod
   public void beforeMethod() {
 	  lib=new WebdriverCommonLib();
-	  driver=Driver.getDriver();
+	  
 	  driver.get(Constants.url);
 	  lib.maximise();
 	   homePage=new HomePage(driver);
@@ -84,17 +84,17 @@ public class NewTest {
 
   @AfterMethod
   public void afterMethod() {
-	  driver.quit();
+	  
   }
 
   @BeforeClass
   public void beforeClass() {
-	  System.out.println("Before Class");
+	  driver=Driver.getDriver();
   }
 
   @AfterClass
   public void afterClass() {
-	  System.out.println("After Class");
+	  driver.quit();
   }
 
   @BeforeTest
