@@ -3,16 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
   <test name="Test(failed)" parallel="none">
     <classes>
-      <class name="com.seleniumeasy.tests.NewTest">
+      <class name="com.seleniumeasy.tests.CheckBoxTest">
         <methods>
           <include name="beforeSuite"/>
+          <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="f"/>
-          <include name="beforeClass"/>
-          <include name="totaltest"/>
+          <include name="afterMethod"/>
           <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+          <include name="clickAllCheckBoxesTest"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- com.seleniumeasy.tests.NewTest -->
+      </class> <!-- com.seleniumeasy.tests.CheckBoxTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

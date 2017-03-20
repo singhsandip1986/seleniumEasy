@@ -59,6 +59,16 @@ public class NewTest {
 	  int total=text1+text2;
 	  Assert.assertEquals(message, total+"","Did Not Match");
   }
+  
+  @Test
+  public void totalNegativeTest()
+  {
+	  SimpleFormDemoPage simpleFormDemoPage=new SimpleFormDemoPage(driver);
+	  int text1=12,text2=-1;
+	  String message=simpleFormDemoPage.getTotal(text1, text2);
+	  int total=text1+text2;
+	  Assert.assertEquals(message, total+"","Did Not Match");
+  }
   @BeforeMethod
   public void beforeMethod() throws InterruptedException {
 	  lib=new WebdriverCommonLib();

@@ -17,7 +17,7 @@ public class BasicPage {
 	}
 	@FindBy(partialLinkText="Simple Form Demo")
 	private WebElement simpleFormDemoButton;
-	@FindBy(xpath="//a[@href='Check Box Demo']")
+	@FindBy(partialLinkText="Check Box Demo")
 	private WebElement checkBoxDemoButton;
 	
 	@FindBy(xpath="//a[text()='Radio Buttons Demo']")
@@ -42,6 +42,13 @@ public class BasicPage {
 		
 			driverLib.moveToElement(simpleFormDemoButton);
 			simpleFormDemoButton.click();
+		}
+	
+	public void clickCheckBoxDemoButton()
+	{
+		
+			driverLib.moveToElement(checkBoxDemoButton);
+			checkBoxDemoButton.click();
 		}
 		
 	
