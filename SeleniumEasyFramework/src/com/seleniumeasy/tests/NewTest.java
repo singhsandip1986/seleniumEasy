@@ -60,7 +60,7 @@ public class NewTest {
 	  Assert.assertEquals(message, total+"","Did Not Match");
   }
   @BeforeMethod
-  public void beforeMethod() {
+  public void beforeMethod() throws InterruptedException {
 	  lib=new WebdriverCommonLib();
 	  
 	  driver.get(Constants.url);

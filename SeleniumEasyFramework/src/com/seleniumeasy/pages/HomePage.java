@@ -18,9 +18,10 @@ public class HomePage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void clickStartPracticingButton()
+	public void clickStartPracticingButton() throws InterruptedException
 	{
-		driverLib.moveToElement(StartPracticingButton);
+		//driverLib.moveToElement(StartPracticingButton);
+		Thread.sleep(5000);
 		StartPracticingButton.click();
 	}
 
