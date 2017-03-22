@@ -17,6 +17,8 @@ public class BasicPage {
 	}
 	@FindBy(partialLinkText="Simple Form Demo")
 	private WebElement simpleFormDemoButton;
+	@FindBy(partialLinkText="Select Dropdown List")
+	private WebElement selectDropdownListButton;
 	@FindBy(partialLinkText="Check Box Demo")
 	private WebElement checkBoxDemoButton;
 	
@@ -59,6 +61,11 @@ public class BasicPage {
 			driverLib.moveToElement(checkBoxDemoButton);
 			checkBoxDemoButton.click();
 		
+	}
+	
+	public void selectDropdownList()
+	{
+		selectDropdownListButton.click();
 	}
 	
 	

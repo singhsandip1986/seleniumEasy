@@ -4,7 +4,7 @@
 
   <test name="Test">
     <classes>
-      <class name="com.seleniumeasy.tests.CheckBoxTest"/>
+      <class name="com.seleniumeasy.tests.SelectListTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
